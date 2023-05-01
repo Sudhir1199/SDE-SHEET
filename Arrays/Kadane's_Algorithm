@@ -1,0 +1,17 @@
+class Kadane_Algorithm{
+   public int max_sumArray(int []arr){
+      int Max_sum = Integer.MIN_VALUE 
+      int n = arr.length;
+      int sum = 0;
+      for(int i = 0; i<n; i++){
+         sum += arr[i];
+         if(sum>Max_sum){
+            Max_sum = sum;
+         }
+         if(sum<0){
+           sum = 0;
+         }
+      }
+      return Max_sum;
+   }
+}
