@@ -1,0 +1,33 @@
+class Solution{
+
+    public void merge(int nums1[], int m, int nums2[], int m){
+
+      int M = m - 1;// starting point in num1
+      int N = n - 1;// starting point in num2
+
+      int k = m+n-1;
+
+      while(N>=0){
+         if(M>=0 && num1[M]>=num2[N]){
+
+            nums1[k] = nums1[M]
+            k--;
+            M--;
+
+         }
+         else{
+
+             nums1[k] = nums2[N]
+             k--;
+             N--;
+
+         }
+
+
+       }
+
+
+
+   }
+
+}
