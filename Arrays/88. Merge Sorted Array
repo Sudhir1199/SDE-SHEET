@@ -23,7 +23,8 @@ class Solution{
 
          }
 
-
+// as we are making changes is nums1 so all elements are in place so lets say num2[N] is over the or the 
+//remaining place num1[M] already there as we are modifying num1 index wise
        }
 
 
