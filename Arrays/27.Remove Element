@@ -1,0 +1,28 @@
+class solution 
+{   
+    public int removeElement(int[] nums, int val){
+      
+          int j = 0;
+          for(int i = 0; i<nums.length; i++){
+                 if(nums[i]!=val){
+                      int temp = nums[i];
+                      nums[i] = nums[j];
+                      nums[j] = nums[i];
+                      j++;
+                      
+
+                   }
+            }
+          return j;
+
+      ]
+
+      // we need to remove same occurance of given value
+      // for that we use two pointer in which one pointer collects all non matching value and shift it into left side 
+      // and which ever element j index passed by will be return as an array 
+
+
+
+
+
+  }
